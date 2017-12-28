@@ -704,7 +704,6 @@ def com_google_protobuf_js():
           "https://mirror.bazel.build/github.com/google/protobuf/archive/33545583286a31940b6a732b1888e639cdf2e3c4.tar.gz",
           "https://github.com/google/protobuf/archive/33545583286a31940b6a732b1888e639cdf2e3c4.tar.gz",  # 2017-07-17
       ],
-      sha256 = "ecd9f92f137e75d140a8b611cd2c0d6c0f34f561946dc5f7fcecde631bb13c25",
       strip_prefix = "protobuf-33545583286a31940b6a732b1888e639cdf2e3c4/js",
       build_file = str(Label("//closure/protobuf:protobuf_js.BUILD")),
   )
